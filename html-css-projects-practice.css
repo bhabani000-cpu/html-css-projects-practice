@@ -60,3 +60,77 @@ h1 {
   font-weight: 800;
   vertical-align: middle;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.features-section {
+  text-align: center;
+  background-color: transparent;
+}
+
+.features-section h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #37474f;
+  margin-bottom: 10px;
+}
+
+.features-section p {
+  color: #6b6b6b;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+/* Container */
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Card Styling */
+.feature-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 25px 20px;
+  text-align: left;
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Icon Styling */
+.icon-wrapper {
+  background-color: #e0f2f1;
+  color: #00bfa5;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+}
