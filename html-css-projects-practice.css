@@ -1,0 +1,39 @@
+header {
+  display: flex; 
+  gap: 20px;
+background-color: #000;   /* heading background color black */
+  padding: 6px 10px;        /* spacing inside the black box */
+  border-radius: 4px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #fff;              /* readable on black */
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  display: flex;               
+  gap: 16px;                     
+  align-items: center;
+}
+
+/* make list items easier to interact with and add hover */
+header ul li {
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background-color 0.18s ease, color 0.18s ease;
+  cursor: pointer;
+  color: white;
+}
+
+header ul li:hover {
+  background-color: #e8f0ff;
+  color: #8484d4;
+}
+
+.head2{
+  margin-left: auto;
+}
