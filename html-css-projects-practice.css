@@ -1,7 +1,10 @@
+body {
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+}
 header {
   display: flex; 
   gap: 20px;
-background-color: #000;   /* heading background color black */
+  background-color: #37474f;   /* heading background color black */
   padding: 6px 10px;        /* spacing inside the black box */
   border-radius: 4px;
 }
@@ -26,16 +29,34 @@ header ul {
 header ul li {
   padding: 6px 10px;
   border-radius: 4px;
-  transition: background-color 0.18s ease, color 0.18s ease;
   cursor: pointer;
   color: white;
 }
 
 header ul li:hover {
-  background-color: #00bfa5;
-  color: #37474f;
+  background-color: #009688;
+  color: #e0f2f1;
 }
 
 .head2{
   margin-left: auto;
+}
+.logo-heading {
+  display: inline-block; /* puts image + heading on same line */
+  vertical-align: middle;
+}
+
+.logo {
+  height: 32px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+h1 {
+  display: inline-block;
+  color: #37474f;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  vertical-align: middle;
 }
