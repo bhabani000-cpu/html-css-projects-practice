@@ -4,8 +4,8 @@ body {
 header {
   display: flex; 
   gap: 20px;
-  background-color: #37474f;   /* heading background color black */
-  padding: 6px 10px;        /* spacing inside the black box */
+  background-color: #37474f;
+  padding: 6px 10px;   
   border-radius: 4px;
 }
 
@@ -25,7 +25,6 @@ header ul {
   align-items: center;
 }
 
-/* make list items easier to interact with and add hover */
 header ul li {
   padding: 6px 10px;
   border-radius: 4px;
@@ -85,14 +84,13 @@ body {
   margin-bottom: 50px;
 }
 
-/* Container */
+
 .features-container {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-/* Card Styling */
 .feature-card {
   background: #fff;
   border-radius: 12px;
@@ -109,7 +107,6 @@ body {
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-/* Icon Styling */
 .icon-wrapper {
   background-color: #e0f2f1;
   color: #00bfa5;
@@ -133,4 +130,72 @@ body {
   color: #555;
   line-height: 1.5;
 }
+.wellness-tracker {
+  width: 980px;
+  margin: 2rem auto;
+  padding: 18px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 10px;
+  color: #2f3a3a;
+}
+
+.wellness-tracker h2 {
+  margin: 0 0 6px 0;
+  font-size: 1.5rem;
+  color: #37474f;
+}
+
+.wellness-tracker .sub {
+  margin: 0 0 14px 0;
+  color: #667;
+  font-size: 0.95rem;
+}
+
+.wellness-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.wellness-card {
+  flex: 1 1 260px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.03);
+  position: relative;
+}
+
+.wellness-card .icon-wrapper {
+  font-size: 28px;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #f1f8f7;
+  color: #00796b;
+  margin-bottom: 8px;
+}
+
+.wellness-card h3 {
+  margin: 6px 0;
+  font-size: 1.05rem;
+}
+
+.wellness-card p {
+  margin: 0 0 12px 0;
+  color: #556;
+  font-size: 0.95rem;
+}
+.wellness-card .goal-badge {
+  display: inline-block;
+  background: #009688;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.95rem;
 }
